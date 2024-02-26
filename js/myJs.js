@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text1: "Anho Công Chúa Hà Của Anh",
+  text2: "Anh Nguyên Xấu Xí có điều này muốn hỏi Công Chúa Hà nhớ phải trả lời thật lòng nhaaa.",
+  text3: "Công Chúa Hà Có iu iu anh Nguyên nhiều Hong nà ._.",
+  text4: "Nếu Công Chúa Hà ko trả lời mà thoát ra tức là muốn làm vợ Anh Nguyên Xấu Xí rùi đó nha :v",
+  text5: "Thấy Ghét hong thèm iu đâu lêu lêu =))",
+  text6: "Em iu iu Anh Nguyên nhất trên đời lun <3",
+  text7: "Thích quá dợ sao mà Công Chúa Hà của anh thích anh dợ. :vvvv",
+  text8: "Gửi cho anh biêt được hong nè <3",
+  text9: "Vì Anh nguyên đẹp try vlllll,làm gì cx đáng iu hết và cx muốn măm măm anh nguyên nx ",
+  text10: "Tr Công Chúa của anh đáng iu quá dợ,anh cũng thích nhất câu cuối nè <3",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
-  text12: "Okii lunn <3",
+    "Mốt sau này có chịu lấy anh nguyên hong :DDDDDDDDDDDDD",
+  text12: "Dạ có em yêu anh nhiều lắm lun <3",
 };
 
 $(document).ready(function () {
@@ -44,7 +44,6 @@ $(document).ready(function () {
       $(".content").show(200);
     });
   }
-
   // switch button position
   function switchButton() {
     var audio = new Audio("sound/duck.mp3");
@@ -138,7 +137,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "./iloveu.html";
           },
         });
       }
